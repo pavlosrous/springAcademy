@@ -35,8 +35,28 @@ and point it to the following file ```com.springsocial.springsocial.Springsocial
 
 ## Playing with the application
 - Assuming that you managed to run both the backed and the front end succesfully, navigate to ```localhost:3000/login``` and enter ```reviewer2``` as the
-username and ```admin1``` as the password. These credentials will give you access to the instructor view. The dashboard contains the courses
-that the instructor is teaching this semester. It should look
-<img width="1439" alt="Screen Shot 2022-12-17 at 10 03 50 PM" src="https://user-images.githubusercontent.com/70917323/208287147-efa02328-5ff5-4b9e-9503-7187f045d9b1.png">
- like this 
+username and ```admin1``` as the password. These credentials will give you access to the instructor view. The dashboard contains the courses that the instructor is teaching this semester. It should look this
 
+<img width="1439" alt="Screen Shot 2022-12-17 at 10 03 50 PM" src="https://user-images.githubusercontent.com/70917323/208287147-efa02328-5ff5-4b9e-9503-7187f045d9b1.png">
+
+- By clicking the "Add Assignment" button, you can create an assignment for the specific course. After specying the assignment number and the due data, click save. The students registered for that course 
+are now able to see this assignment in their dashboards. 
+- The "View Submissions" Link on the nagivation bar renders a view where instructors can see the submissions for each assignment of each course. 
+
+**Student View**
+- To access a student view, logout or navigate to the login page and use ```student``` as the username and ```admin1``` as the password. As a student, your dashbord shows all the classes that you've registered for. 
+
+<img width="1440" alt="Screen Shot 2022-12-17 at 10 07 23 PM" src="https://user-images.githubusercontent.com/70917323/208287343-24856397-94ff-464f-a886-9c3ddfee70a6.png">
+
+If you want to attend more classes, click the "Register" option on the navigation bar. There you can register for any class you want. To see which assignments are available, go back to the dashboard and click on the "Assignments" option for a course. You can now use the dropdown menu to view and submit all the available assignments. After selecting one, you should see something like this 
+
+<img width="1440" alt="Screen Shot 2022-12-17 at 10 07 35 PM" src="https://user-images.githubusercontent.com/70917323/208287492-5405a424-25c1-4450-98c2-285ae19c6381.png">
+
+**Admin View**
+Finally, one can access Spring Academy by using an admin role. To do that, navigate to the login page 
+and use ```admin1``` as the username and ```admin1``` as the password. Admins have full control over the
+courses and they are the ones who create them. The admin dashboard should look like this
+
+<img width="1412" alt="Screen Shot 2022-12-17 at 10 14 17 PM" src="https://user-images.githubusercontent.com/70917323/208287583-c8a26cd7-7d6d-4645-b38b-7ed22cf782f9.png">
+
+At the very bottom, there is an "Add Course" option you can play with. 
