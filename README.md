@@ -34,6 +34,9 @@ and point it to the following file ```com.springsocial.springsocial.Springsocial
 
 
 ## Playing with the application
+
+**Instructor View**
+
 - Assuming that you managed to run both the backed and the front end succesfully, navigate to ```localhost:3000/login``` and enter ```reviewer2``` as the
 username and ```admin1``` as the password. These credentials will give you access to the instructor view. The dashboard contains the courses that the instructor is teaching this semester. It should look this
 
@@ -44,6 +47,7 @@ are now able to see this assignment in their dashboards.
 - The "View Submissions" Link on the nagivation bar renders a view where instructors can see the submissions for each assignment of each course. 
 
 **Student View**
+
 - To access a student view, logout or navigate to the login page and use ```student``` as the username and ```admin1``` as the password. As a student, your dashbord shows all the classes that you've registered for. 
 
 <img width="1440" alt="Screen Shot 2022-12-17 at 10 07 23 PM" src="https://user-images.githubusercontent.com/70917323/208287343-24856397-94ff-464f-a886-9c3ddfee70a6.png">
