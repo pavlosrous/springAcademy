@@ -11,7 +11,7 @@ security features are implemented, like login and JWT verification/expiration.
 - Since we are using Docker to run our PostgreSQL instance, the docker daemon needs to be installed. To do that, follow the instructions here https://docs.docker.com/get-docker/
 - Once docker is installed, run ```docker pull postgres``` from your terminal. This will pull the latest docker image containing PostgreSQL
 - Then run ```docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -p 5432:5432 -d postgres``` to start the docker container at port 
-543
+5432
 - To verify that the container is up and running, ```docker ps``` should output something like this 
 ```
 CONTAINER ID   IMAGE      COMMAND                  CREATED       STATUS          PORTS                    NAMES
